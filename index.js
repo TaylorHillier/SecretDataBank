@@ -7,29 +7,39 @@ const term2CourseData = [
   {
     courseTitle: "Comp 2522",
     resources: [
-      { kind: "quiz",     title: "Quiz 1 — OOP Basics",     url: "/2522/quizzes/q1" },
-      { kind: "assignment", title: "A1 — Inheritance",       url: "/2522/asn/a1" },
-      { kind: "midterm",  title: "Midterm Study Notes",     url: "/2522/exams/midterm-notes" },
-      { kind: "project",  title: "Project — Zoo Simulator", url: "/2522/projects/zoo" }
+      {kind: "quiz", title: "Comp 2121 Quizzes", url: "https://drive.google.com/drive/folders/1SHEpax_vOviIJuxFeNtC18GTphxrUUHG?dmr=1&ec=wgc-drive-globalnav-goto"}
     ]
   },
   {
     courseTitle: "Comp 2714",
     resources: [
-      { kind: "quiz",     title: "Quiz 1 — SQL Basics",     url: "/2714/quizzes/q1" },
-      { kind: "assignment", title: "A1 — Normalization",     url: "/2714/asn/a1" }
+      {kind: "quiz", title: "Comp 2714 Quizzes", url: "https://drive.google.com/drive/folders/1HaAwBR5AdXOeowPiUIXDNcRcTb7rzRTq?dmr=1&ec=wgc-drive-globalnav-goto"}
     ]
   },
   {
     courseTitle: "Comp 2721",
     resources: [
-      { kind: "lab",      title: "Lab 2 — Networking Intro", url: "/2721/labs/l2" },
-      { kind: "final",    title: "Final Exam Practice",      url: "/2721/exams/final-practice" }
+      {kind: "final", title: "Comp 2721 Final", url: "https://drive.google.com/drive/folders/1AAvMcHgfMyi9nBQtXKDWyJkAxEjSQ7m0?dmr=1&ec=wgc-drive-globalnav-goto"},
+      {kind: "midterm", title: "Comp 2721 Midterm", url: "https://drive.google.com/drive/folders/1XFqM930vOMglP2b3s2JGe8esYlFhaxB3?dmr=1&ec=wgc-drive-globalnav-goto"},
+      {kind: "quiz", title: "Comp 2721 Quizzes", url: "https://drive.google.com/drive/folders/1FXoQX_DGbyHAiuniDYI9uFxCdu7H5mbP?dmr=1&ec=wgc-drive-globalnav-goto"}
+    ]
+  },
+  {
+    courseTitle: "Comp 2121",
+    resources:[
+      {kind: "assignment", title: "Comp 2121 Assignments", url: "https://drive.google.com/drive/folders/12XhXYCM09G7XYiOOwOgvwXMp6TWwTq70?dmr=1&ec=wgc-drive-globalnav-goto"},
+      {kind: "final", title: "Comp 2121 Final", url: "https://drive.google.com/drive/folders/1Da8KFXvnn5_E63KDQeo8GONI7_EB_ibX?dmr=1&ec=wgc-drive-globalnav-goto"},
+      {kind: "midterm", title: "Comp 2121 Midterm", url: "https://drive.google.com/drive/folders/1bLYuLHOTucvnJOJqgV4TQ7W86iOW5jwL?dmr=1&ec=wgc-drive-globalnav-goto"},
+      {kind: "quiz", title: "Comp 2121 Quizzes", url: "https://drive.google.com/drive/folders/1ybULkD-hPhoVRuqS9VvgXgdbAtz7PqPm?dmr=1&ec=wgc-drive-globalnav-goto"}
     ]
   },
   {
     courseTitle: "Comp 2510",
-    resources: [] // empty is allowed — UI will say "No resources yet"
+    resources:[
+      {kind: "final", title: "Comp 2510 Final", url: "https://drive.google.com/drive/folders/1Tjrqk_hs5_hMleOyShiAgWng26-E_18Z?dmr=1&ec=wgc-drive-globalnav-goto"},
+      {kind: "midterm", title: "Comp 2510 Midterm", url: "https://drive.google.com/drive/folders/1E4AEToUETj23xMlT5giiKbIPXcLiwfyx?dmr=1&ec=wgc-drive-globalnav-goto"},
+      {kind: "quiz", title: "Comp 2510 Quizzes", url: "https://drive.google.com/drive/folders/1dRPpcvttWZlcjshmR-aKxAl3TzaFI33x?dmr=1&ec=wgc-drive-globalnav-goto"}
+    ]
   }
 ];
 
